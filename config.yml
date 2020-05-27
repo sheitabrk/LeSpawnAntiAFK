@@ -1,0 +1,36 @@
+#######################
+# LeSpawnAFK CONFIG ##############
+#######################
+# Réglez ce paramètre sur "faible" pour réduire le nombre de messages de démarrage ou sur élevé, le plus élevé et extrême pour plus d'informations de débugg
+verbosity: normal
+
+#######################
+#Check si il ya des nouveaux mis à jour
+update_checker: true
+
+#######################
+# Coloraation des logs messages # Désactiver pas
+color_log_messages: true
+
+#######################
+# Combien de minutes avant de kick le joueur
+default_timeout: 5
+
+#######################
+# Commands to run when the player is marked AFK. Use %p for player's name, %t for time AFK! Supports color codes (&)
+kick_commands:
+  - "kick %p [LeSpawnAFK] Vous avez étais kick pour AFK !"
+
+#######################
+# Permission pour augmenter les minutes avant de se faire kick par l'anti AFK
+permissions:
+  - antiafk.player.5
+  - antiafk.player.10
+  - antiafk.player.15
+
+#######################
+# Les mondes ou le plugin va check les joueurs qui AFK
+check_worlds:
+  - world
+  - world_the_nether
+  - world_the_end

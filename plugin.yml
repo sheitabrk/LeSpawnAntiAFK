@@ -1,0 +1,22 @@
+name: LeSpawnAFK
+main: com.noxiii.lespawnafk.LeSpawnAFK
+version: 1.0
+author: Noxiii
+api-version: 1.15.2
+commands:
+  spawnafk:
+    description: Commandes Admin du plugin LeSpawnAFK
+    aliases: [LeSpawnAFK]
+    usage: |
+      §7
+      §aLeSpawnAFK
+      §7Version: 1.0
+      §a/spawnafk reload§7: Reload la config
+      §7
+permissions:
+  antiafk.admin:
+    default: op
+    description: Cette permission permet de reload le config.yml
+  antiafk.unlimited:
+    default: op
+    description: Cette permission permet que le joueur ne sois jamais kick pour AFK
