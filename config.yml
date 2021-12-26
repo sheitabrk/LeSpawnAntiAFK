@@ -1,5 +1,5 @@
 #######################
-# LeSpawnAFK CONFIG ##############
+# LeSpawnAFK CONFIG #
 #######################
 # Réglez ce paramètre sur "faible" pour réduire le nombre de messages de démarrage ou sur élevé, le plus élevé et extrême pour plus d'informations de débugg
 verbosity: normal
